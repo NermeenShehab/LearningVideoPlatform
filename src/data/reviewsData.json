@@ -1,0 +1,49 @@
+{
+  "overallRating": {
+    "ratingValue": 4.0,
+    "totalRatings": 146951
+  },
+  "ratingDistribution": [
+    { "rating": 5, "percentage": 90 },
+    { "rating": 4, "percentage": 5 },
+    { "rating": 3, "percentage": 2 },
+    { "rating": 2, "percentage": 2 },
+    { "rating": 1, "percentage": 1 }
+  ],
+  "comments": [
+    {
+      "userImage": "1.png",
+      "userName": "Laura Hipster",
+      "date": "October 03, 2022",
+      "commentText": "Quisque nec non amet quis. Varius tellus justo odio parturient mauris curabitur lorem in. Pulvinar sit ultrices mi ut eleifend luctus ut. Id sed faucibus bibendum augue id cras purus. At eget euismod cursus non. Molestie dignissim sed volutpat feugiat vel."
+    },
+    {
+      "userImage": "1.jpg",
+      "userName": "John Doe",
+      "date": "October 04, 2022",
+      "commentText": "Quisque nec non amet quis. Varius tellus justo odio parturient mauris curabitur lorem in. Pulvinar sit ultrices mi ut eleifend luctus ut. Id sed faucibus bibendum augue id cras purus. At eget euismod cursus non. Molestie dignissim sed volutpat feugiat vel."
+    },
+    {
+      "userImage": "3.jpg",
+      "userName": "Jane Smith",
+      "date": "October 05, 2022",
+      "commentText": "Quisque nec non amet quis. Varius tellus justo odio parturient mauris curabitur lorem in. Pulvinar sit ultrices mi ut eleifend luctus ut. Id sed faucibus bibendum augue id cras purus. At eget euismod cursus non. Molestie dignissim sed volutpat feugiat vel."
+    },
+    {
+      "userImage": "5.jpg",
+      "userName": "Chris Johnson",
+      "date": "October 06, 2022",
+      "commentText": "Quisque nec non amet quis. Varius tellus justo odio parturient mauris curabitur lorem in. Pulvinar sit ultrices mi ut eleifend luctus ut. Id sed faucibus bibendum augue id cras purus. At eget euismod cursus non. Molestie dignissim sed volutpat feugiat vel."
+    },
+    {
+      "userImage": "7.jpg",
+      "userName": "Bob Marley",
+      "date": "October 08, 2022",
+      "commentText": "Quisque nec non amet quis. Varius tellus justo odio parturient mauris curabitur lorem in. Pulvinar sit ultrices mi ut eleifend luctus ut. Id sed faucibus bibendum augue id cras purus. At eget euismod cursus non. Molestie dignissim sed volutpat feugiat vel."
+    }
+  ],
+  "pagination": {
+    "currentPage": 1,
+    "totalPages": 3
+  }
+}

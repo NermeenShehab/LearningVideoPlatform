@@ -1,0 +1,28 @@
+[
+    {
+      "id": 1,
+      "question": "What types of courses do you offer?",
+      "answer": "We offer a wide range of courses including online, in-person, and hybrid formats across various subjects."
+    },
+    {
+      "id": 2,
+      "question": "How do I enroll in a course?",
+      "answer": "You can enroll in a course by visiting our course catalog and clicking the 'Enroll Now' button on the course page."
+    },
+    {
+      "id": 3,
+      "question": "What is the duration of the courses?",
+      "answer": "Course durations vary. Each course page includes details about the duration, number of lessons, and estimated time commitment."
+    },
+    {
+      "id": 4,
+      "question": "Will I receive a certificate upon completion?",
+      "answer": "Yes, all courses offer a certificate of completion that you can download after finishing the course requirements."
+    },
+    {
+      "id": 5,
+      "question": "What if I miss a live session?",
+      "answer": "If you miss a live session, recordings will be available in the course portal for you to watch at your convenience."
+    }
+  ]
+  

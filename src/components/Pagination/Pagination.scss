@@ -1,0 +1,11 @@
+.Pagination{
+    .MuiPagination-ul{
+        gap: 8px;
+    }
+    .MuiPaginationItem-root{
+        border: 1px solid #EAEAEA;
+        height: 45px;
+        width: 45px;
+        border-radius: 50% ;
+    }
+}

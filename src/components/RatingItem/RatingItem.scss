@@ -1,0 +1,11 @@
+.RatingItem {
+  .MuiLinearProgress-root::before {
+    background-color: #eaeaea !important;
+  }
+  .percentage {
+    width: 35px;
+    font-size: 15px;
+    color: #555555;
+    font-family: "Exo", sans-serif;
+  }
+}

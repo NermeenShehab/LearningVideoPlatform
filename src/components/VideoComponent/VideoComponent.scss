@@ -1,0 +1,108 @@
+.VideoComponent {
+  background-color: #bcbec0;
+
+  .backBtn {
+    min-width: 30px !important;
+    max-width: 30px !important;
+  }
+  .videoName {
+    color: #fff !important;
+    display: inline-flex;
+  }
+  .videoContainer {
+    position: relative;
+
+    video {
+      max-height: 450px;
+      object-fit: cover;
+    }
+
+    .prev-button,
+    .next-button,
+    .info-button,
+    .play-button,
+    .pause-button,
+    .show-btn {
+      position: absolute;
+      top: 0;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      outline: none;
+      z-index: 10;
+    }
+    .prev-button,
+    .next-button {
+      top: 38%;
+    }
+    .prev-button {
+      left: -8px;
+    }
+    .next-button {
+      right: -8px;
+    }
+    .info-button,
+    .show-btn {
+      right: 0;
+    }
+    .play-button,
+    .pause-button {
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%) scale(0.8);
+      transition: transform 0.2s ease, opacity 0.5s ease;
+      opacity: 0;
+      animation: fadeIn 0.5s forwards;
+
+      &.fade-in {
+        opacity: 1;
+      }
+    }
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.8);
+      }
+      to {
+        opacity: 0.8;
+        transform: translate(-50%, -50%) scale(1.3);
+      }
+    }
+    @keyframes fadeOut {
+      from {
+        opacity: 0.8;
+        transform: translate(-50%, -50%) scale(1.3);
+      }
+      to {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.8);
+      }
+    }
+
+    .show-btn {
+      width: 28px;
+      height: 38px;
+      border-radius: 0px;
+      top: 25%;
+      background-color: #555555;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.3s ease;
+
+      &:hover {
+        width: 200px;
+      }
+
+      .tooltip {
+        color: #fff;
+        margin-left: 5px;
+      }
+
+      @media screen and (max-width: 560px) {
+        height: 28px;
+      }
+    }
+  }
+}

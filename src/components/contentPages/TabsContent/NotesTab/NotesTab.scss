@@ -1,0 +1,86 @@
+.NotesTab {
+  .quill {
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #fff;
+
+    .ql-toolbar,
+    .ql-container {
+      border: transparent !important;
+    }
+    .ql-container {
+      height: 108px !important;
+    }
+  }
+
+  .cancelBtn,
+  .addBtn {
+    text-transform: capitalize !important;
+    font-size: 14px;
+    padding: 10px 20px;
+    font-family: "Work Sans", sans-serif !important;
+  }
+  .cancelBtn {
+    background-color: #fff;
+    border-color: #efeffd !important;
+  }
+
+  .MuiOutlinedInput-notchedOutline {
+    border-color: #9d9d9d;
+  }
+  .MuiSelect-icon {
+    top: calc(50% - 0.65em);
+  }
+
+  .addNoteBtn {
+    width: 415px;
+    height: 47px;
+    padding: 10px 16px;
+    background-color: #fff;
+    border: 1px solid #9d9d9d;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #555555;
+    cursor: pointer;
+    text-transform: unset;
+  }
+  .timer {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 82px;
+    height: 30px;
+    color: #000;
+    line-height: 27px;
+    border: 1px solid #9d9d9d;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #fff;
+  }
+
+  .custom-select {
+    width: 260px;
+    color: #555;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    padding: 10px 16px;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 8px;
+    & .MuiSelect-select{
+      padding: 0;
+    }
+  }
+
+  .note{
+    padding: 10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    margin-top:10px;
+    background-color:#fff;
+  }
+}

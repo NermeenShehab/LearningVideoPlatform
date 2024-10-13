@@ -1,0 +1,86 @@
+.CourseContent {
+  border: 1px solid #f5f5f5;
+
+  .header {
+    border-bottom: 1px solid #f5f5f5;
+    padding: 20px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #444444;
+    margin-bottom: 8px;
+  }
+
+  .MuiAccordionSummary-content {
+    margin: 0px;
+    padding: 5px 0px;
+  }
+  .MuiAccordionSummary-root {
+    background-image: linear-gradient(to bottom, #fcfafa 0%, #d9d7d7 100%);
+    .play-icon {
+      display: inline-block;
+    }
+    .accordion-title {
+      display: flex;
+      gap: 10px;
+      .acc-header {
+        display: inline-block;
+      }
+      .subtitle {
+        font-size: 14px;
+      }
+    }
+  }
+  .MuiAccordionSummary-content.Mui-expanded {
+    margin: 0px;
+  }
+
+  .MuiAccordion-root,
+  .MuiPaper-root {
+    box-shadow: none !important;
+    border: none !important;
+    margin-bottom: 0px !important;
+  }
+
+  .MuiAccordionDetails-root {
+    padding: 0px 35px;
+  }
+  .timeline-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .accordion-title {
+      font-family: "Roboto", sans-serif;
+      font-weight: bold;
+      color: #444444;
+    }
+
+    .MuiTimelineContent-root {
+      padding-top: 0px;
+    }
+    .MuiTimelineItem-root {
+      padding: 0px !important;
+      min-height: 60px;
+      max-height: 40px !important;
+    }
+    .timeline-item {
+      .timeline-title {
+        font-family: "Montserrat", sans-serif;
+        font-size: 17px;
+        font-weight: bold;
+        color: #444444;
+      }
+
+      .timeline-duration {
+        font-family: "Montserrat", sans-serif;
+        font-size: 14px;
+        font-weight: light;
+        color: #c0c0c0;
+      }
+
+      .caption{
+        color: #c0c0c0 !important;
+
+      }
+    }
+  }
+}

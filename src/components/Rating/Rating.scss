@@ -1,0 +1,19 @@
+.Rating {
+  .rating-value {
+    font-size: 34px;
+    font-weight: 600;
+    font-family: "Exo", sans-serif !important;
+    line-height: 40px;
+  }
+  .label {
+    font-size: 16px;
+    color: #555555;
+    font-weight: 400;
+    line-height: 23px;
+    text-transform: none;
+    font-family: "Jost", sans-serif !important;
+  }
+  .MuiRating-root{
+    margin-left: -4px;
+  }
+}

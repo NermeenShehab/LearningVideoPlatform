@@ -1,0 +1,24 @@
+.FaqTab {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+.visually-hidden{
+  display: none;
+}
+  .MuiAccordion-root {
+    border-radius: 8px !important;
+    box-shadow: none !important;
+    &::before{
+      background-color: transparent;
+    }
+    .acc-summary {
+      min-height: 64px !important;
+      .title {
+        font-family: 'Exo', sans-serif;
+        line-height: 19px;
+        text-transform: capitalize;
+      }
+    }
+  }
+
+}
